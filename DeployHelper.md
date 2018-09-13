@@ -1,8 +1,8 @@
 # Thomas
 ## Environment Requirements
-**OS**：[Ubuntu 16.04 Server](https://www.ubuntu.com.cn/download/server)or higher
+**OS**：[Ubuntu 16.04 Server](https://www.ubuntu.com.cn/download/server)
 
-**Software**：[Docker 17.03.0-ce](https://docs.docker.com/release-notes/docker-ce/)or higher
+**Software**：[Docker 17.03.0-ce](https://docs.docker.com/release-notes/docker-ce/) or higher
 
 **Hardware**：NVIDIA GPU, such as TESLA P4
 
