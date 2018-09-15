@@ -221,7 +221,7 @@ AccessKey=$AccessKey
 ```
 ##### run thomas docker image, to start transcoder server
 ```
-docker run -d --privileged=true --network=host --runtime=nvidia -v /data/logs/:/data/logs/:rw -v /data/conf/thomas:/app/thomas/conf:ro -v /data/conf/scheduler:/app/scheduler/conf:ro -v /usr/lib/nvidia-390:/usr/lib/nvidia-390:ro superapricot/thomas:20180913081313 /init
+docker run -d --privileged=true --network=host --runtime=nvidia -v /data/logs/:/data/logs/:rw -v /data/conf/thomas:/app/thomas/conf:ro -v /data/conf/scheduler:/app/scheduler/conf:ro -v /usr/lib/nvidia-390:/usr/lib/nvidia-390:ro superapricot/thomas:20180915162848 /init
 ```
 
 ## 3. Try & Test
