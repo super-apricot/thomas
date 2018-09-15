@@ -150,7 +150,7 @@ sudo apt install libmysqlclient-dev
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 add # before bind-address = 127.0.0.1（comment it）
 ```
-#### grant db right
+#### grant db right, asumme your db password is root123, you can change to your own.(and replace root123 to your own the all the follow step)
 ```
 mysql -uroot -proot123
 grant all on *.* to root@'%' identified by 'root123' with grant option;
